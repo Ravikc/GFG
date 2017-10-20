@@ -1,11 +1,12 @@
+import java.util.*;
 public class DifficultyOfSentence {
     private static boolean isVowel(char character) {
         return character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u';
     }
 
     private static boolean isHard(String word) {
-        int numberOfVowels, numberOfConsonants, consecutiveConsonants;
-        for(Character c : word.toCharArray) {
+        int numberOfVowels = 0, numberOfConsonants = 0, consecutiveConsonants = 0;
+        for(Character c : word.toCharArray()) {
             c = Character.toLowerCase(c);
             if(isVowel(c)) {
                 numberOfVowels++;
@@ -25,7 +26,7 @@ public class DifficultyOfSentence {
 
         int testCases = Integer.parseInt(scanner.nextLine());
         for(int test = 0; test < testCases; test++) {
-            int hardWords;
+            int hardWords = 0;
             String[] words = scanner.nextLine().split(" ");
             for(String word : words) {
                 if(isHard(word)) hardWords++;
