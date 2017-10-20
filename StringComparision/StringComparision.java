@@ -72,6 +72,6 @@ public class StringComparision {
             String line2 = line[1];
             System.out.println(compare(line1, line2, hash));
         }
-        
+        scanner.close();
     }
 }
