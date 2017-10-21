@@ -42,7 +42,10 @@ public class DfsGraphTest {
 		}
 		currentString = currentString.substring(0, currentString.length());
 		
+<<<<<<< HEAD
 		// WHY <------- ???
+=======
+>>>>>>> eae9ee7cc5cad271d3f60990f3ee41296a546858
 		visited[currentRow][currentColumn] = false;
 	}
 
