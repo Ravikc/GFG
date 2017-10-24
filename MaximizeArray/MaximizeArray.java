@@ -45,7 +45,7 @@ public class MaximizeArray {
 
 		for(int i = 0; i < size; i++) {
 			int value = 10 + (size - i - 1);
-			if(value > buffer[array1[i]]) buffer[array1[i]] = value;
+			if(value > buffer[array1[i]]) buffer[array1[i]] = value;	
 			temp[i] = array1[i];
 		}
 		for(int i = 0; i < size; i++) {
