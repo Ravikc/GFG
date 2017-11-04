@@ -1,6 +1,5 @@
 import java.util.*;
 
-import javafx.geometry.Pos;
 public class BuildTreeFromTraversals {
 
 	private int preIndex = 0;
